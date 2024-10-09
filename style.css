@@ -1,0 +1,63 @@
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+ background-size: contain ;
+ background-position:0, right bottom ;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.navr{
+    color: rgb(242, 114, 10);
+    display: inline;
+
+}
+.navtitle{
+     font-weight: 800;
+}
+nav ul{
+    display:flex;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+        
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+
+}
+#btn-primary{
+    font-weight: 400;
+    background-color:rgb(242, 114, 10);
+    color: white;
+    border-color:brown;
+    border: none;
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 6px 10px;
+ }
+
+/*profiling*/
+.profile{
+    max-width: 240px;
+}
+.profiling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 50px;
+}
+
+
